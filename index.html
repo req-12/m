@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haya</title>
+    <link rel="stylesheet" href="Haya.css"> <!-- ربط ملف CSS -->
+	<style>
+        
+        .top-right-image {
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin: 10px; 
+        }
+		.myDiv{
+		text-align:center;
+		}
+	
+    </style>
+</head>
+<body>
+
+    <header>
+	<span id="logo">
+	 <img src="logo00-01.png"width="157px" height="70px" float: right;>
+	 </span>  
+        
+		
+		<nav>
+		
+		
+            <ul>
+				
+                <li>الاسئلة الشائعة</a></li>
+				<li>الخريطة</a></li>
+             <li>من نحن </a></li>
+			 <li>شركاء النجاح </a></li>
+            </ul>
+        </nav>
+		
+    </header>
+	
+    <section id="home">
+        <h2>أهلًا، أنا هيا</h2> 
+<h2>أنا هنا لمساعدتك</h2>
+       
+		<video src="IMG_1123.MP4" width="400" height="350" autoplay muted loop>
+ 
+
+  
+    </section>
+    
+	 
+        
+
+
+   <section "main" id="section1">
+   
+    <h1>الأسئلة الشائعة</h1>
+   
+  
+   
+
+        <div class="question">
+        <!-- السؤال -->
+        <h3 onclick="toggleText(1)">متى يتعين علي الوصول إلى المطار قبل موعد رحلتي ؟</h3>
+
+        <!-- فيديو السؤال -->
+        <video id="questionVideo1" width="320" height="240" autoplay muted loop controls onclick="switchVideo(1)">
+            <source src="IMG_1132.MP4" type="video/mp4">
+            المتصفح الخاص بك لا يدعم تشغيل الفيديو.
+			
+        </video>
+		<video id="AnswerVideo1" width="320" height="240" autoplay muted loop controls onclick="switchVideo(1)">
+            <source src="IMG_1131.MP4" type="video/mp4">
+        </video></div>
+        <!-- الإجابة النصية (مخفية في البداية) -->
+        
+            <p>    .رحلات داخلية: ٩٠ دقيقة قبل المغادرة -</p>
+			<p>   .رحلات دولية: ١٢٠ دقيقة قبل المغادرة -</p>
+			
+
+      
+	
+
+        <div class="question">
+        <!-- السؤال -->
+        <h3 onclick="toggleText(2)">ماهي المرافق المتاحة في المطار للمسافرين من ذوي الهمم ؟</h3>
+
+        <!-- فيديو السؤال -->
+        <video id="questionVideo2" width="320" height="240" autoplay muted loop controls onclick="switchVideo(2)">
+            <source src="IMG_1135.MP4" type="video/mp4">
+            المتصفح الخاص بك لا يدعم تشغيل الفيديو.
+        </video>
+		
+         <video id="AnswerVideo1" width="320" height="240" autoplay muted loop controls onclick="switchVideo(1)">
+            <source src="IMG_1134.MP4" type="video/mp4">
+        </video></div>
+		
+		
+        <!-- الإجابة النصية (مخفية في البداية) -->
+       
+            <p>.كراسي متحركة، دورات مياة مجهزة، مساعدة متاحة عند الحاجة -</p>
+        
+		
+        
+   
+	
+	
+	    <div class="question">
+        <!-- السؤال -->
+        <h3 onclick="toggleText(3)"> هل يمكنني الإتصال بشبكة الإنترنت في مطار خليج نيوم ؟ وهل هناك رسوم مقابل ذلك ؟</h3>
+
+        <!-- فيديو السؤال -->
+        <video id="questionVideo3" width="320" height="240" autoplay muted loop controls onclick="switchVideo(3)">
+            <source src="IMG_1137.MP4" type="video/mp4">
+            المتصفح الخاص بك لا يدعم تشغيل الفيديو.
+        </video>
+		
+         <video id="AnswerVideo3" width="320" height="240" autoplay muted loop controls onclick="switchVideo(3)">
+            <source src="IMG_1136.MP4" type="video/mp4">
+        </video></div>
+		
+		
+       <!-- الإجابة النصية (مخفية في البداية) -->
+        
+            <p>.نعم، الواي فاي مجاني وعالي السرعة -</p>
+       
+       
+	
+	
+	
+	    <div class="question">
+        <!-- السؤال -->
+        <h3 onclick="toggleText(4)">هل هناك أي فنادق قريبة من مطار خليج نيوم ؟</h3>
+
+        <!-- فيديو السؤال -->
+        <video id="questionVideo4" width="320" height="240" autoplay muted loop controls onclick="switchVideo(1)">
+            <source src="IMG_1139.MP4" type="video/mp4">
+            المتصفح الخاص بك لا يدعم تشغيل الفيديو.
+			
+        </video>
+		<video id="AnswerVideo4" width="320" height="240" autoplay muted loop controls onclick="switchVideo(1)">
+            <source src="IMG_1138.MP4" type="video/mp4">
+        </video></div>
+		
+        <!-- الإجابة النصية (مخفية في البداية) -->
+        
+            <p>
+.نعم، من بينها: هامبتون باي هيلتون، شاطئ ومنتجع لازور، منتجع فيستا شرما -</p>
+			
+       
+    
+	
+	    <div class="question">
+        <!-- السؤال -->
+        <h3 onclick="toggleText(5)">هل يوجد مستشفى قريب من مطار خليج نيوم ؟</h3>
+
+        <!-- فيديو السؤال -->
+        <video id="questionVideo5" width="320" height="240" autoplay muted loop controls onclick="switchVideo(1)">
+            <source src="IMG_1141.MP4" type="video/mp4">
+            المتصفح الخاص بك لا يدعم تشغيل الفيديو.
+			
+        </video>
+		<video id="AnswerVideo5" width="320" height="240" autoplay muted loop controls onclick="switchVideo(1)">
+            <source src="IMG_1140.MP4" type="video/mp4">
+        </video></div>
+		
+        <!-- الإجابة النصية (مخفية في البداية) -->
+        
+            <p>.مستشفى نيوم على بعد ١٠ دقائق، إضافة لمرافق طبية داخل المطار -</p>
+			
+       
+    </div>
+	
+	
+</section>
+
+
+	
+	
+	 <section id="map">
+	 
+	 <h1>الى اين؟</h1>
+	
+       
+        <img id="mainImage" src="الخريطة.png" style="width: 100%; max-width: 300px;">
+        
+        <div>
+            <button onclick="changeImage('المصلى')">المصلى</button>
+            <button onclick="changeImage('البوابات')">البوابات</button>
+           <button onclick="changeImage('نفس اسم الصورة')">هذا بيكون اسم الزر</button>
+        </div>
+    </section>
+
+    <script>
+        function changeImage(location) {
+            var image = document.getElementById('mainImage');
+            if (location === 'المصلى') 
+                image.src = 'المصلى';
+            } else if (location === 'البوابات') {
+                image.src = 'البوابات.png';
+            } else if (location === 'تكملون على نفس الشي') {
+                image.src = 'هنا اسم الصورة.png';
+            }
+        }
+    </script>
+	
+	
+    <footer>
+	
+	 <section id="services">
+        <h2>شركاء النجاح</h2>
+        <p>شركة تجمع المطارات الثاني - الراعي الرسمي </p>
+		<p>يوسف بني خليف - مترجم لغة الإشارة </p>
+		<p>راكان - مبرمج </p>
+    </section>
+	
+		<section id="we">
+        <h2>من نحن</h2>
+        <p>معلومات عن الموقع أو الشركة.</p>
+        <p>©️ 2024 جميع الحقوق محفوظة.</p>
+     </section>
+   
+    </footer>
+    <img s  >
+	
+</body>
+</html>

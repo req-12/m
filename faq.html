@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الأسئلة الشائعة</title>
+    <link rel="stylesheet" href="Haya.css">
+	
+
+</head>
+<body>
+    <header>
+        <h1>الأسئلة الشائعة</h1>
+    </header>
+
+   <section "main" id="section1">
+   
+  
+   
+
+        <div class="question">
+        <!-- السؤال -->
+        <h3 onclick="toggleText(1)">متى يتعين علي الوصول إلى المطار قبل موعد رحلتي ؟</h3>
+
+        <!-- فيديو السؤال -->
+        <video id="questionVideo1" width="320" height="240" autoplay muted loop controls onclick="switchVideo(1)">
+            <source src="IMG_1132.MP4" type="video/mp4">
+            المتصفح الخاص بك لا يدعم تشغيل الفيديو.
+			
+        </video>
+		<video id="AnswerVideo1" width="320" height="240" autoplay muted loop controls onclick="switchVideo(1)">
+            <source src="IMG_1131.MP4" type="video/mp4">
+        </video></div>
+        <!-- الإجابة النصية (مخفية في البداية) -->
+        <div id="answer1" style="display:none;">
+            <p>    .رحلات داخلية: ٩٠ دقيقة قبل المغادرة -</p>
+			<p>   .رحلات دولية: ١٢٠ دقيقة قبل المغادرة -</p>
+			
+        </div>
+      
+	
+
+        <div class="question">
+        <!-- السؤال -->
+        <h3 onclick="toggleText(2)">ماهي المرافق المتاحة في المطار للمسافرين من ذوي الهمم ؟</h3>
+
+        <!-- فيديو السؤال -->
+        <video id="questionVideo2" width="320" height="240" autoplay muted loop controls onclick="switchVideo(2)">
+            <source src="IMG_1135.MP4" type="video/mp4">
+            المتصفح الخاص بك لا يدعم تشغيل الفيديو.
+        </video>
+		
+         <video id="AnswerVideo1" width="320" height="240" autoplay muted loop controls onclick="switchVideo(1)">
+            <source src="IMG_1134.MP4" type="video/mp4">
+        </video></div>
+		
+		
+        <!-- الإجابة النصية (مخفية في البداية) -->
+        <div id="answer2" style="display:none;">
+            <p>.كراسي متحركة، دورات مياة مجهزة، مساعدة متاحة عند الحاجة -</p>
+        </div>
+		
+        
+   
+	
+	
+	    <div class="question">
+        <!-- السؤال -->
+        <h3 onclick="toggleText(3)"> هل يمكنني الإتصال بشبكة الإنترنت في مطار خليج نيوم ؟ وهل هناك رسوم مقابل ذلك ؟</h3>
+
+        <!-- فيديو السؤال -->
+        <video id="questionVideo3" width="320" height="240" autoplay muted loop controls onclick="switchVideo(3)">
+            <source src="IMG_1137.MP4" type="video/mp4">
+            المتصفح الخاص بك لا يدعم تشغيل الفيديو.
+        </video>
+		
+         <video id="AnswerVideo3" width="320" height="240" autoplay muted loop controls onclick="switchVideo(3)">
+            <source src="IMG_1136.MP4" type="video/mp4">
+        </video></div>
+		
+		
+       <!-- الإجابة النصية (مخفية في البداية) -->
+        <div id="answer3" style="display:none;">
+            <p>.نعم، الواي فاي مجاني وعالي السرعة -</p>
+        </div>
+		
+       
+	
+	
+	
+	    <div class="question">
+        <!-- السؤال -->
+        <h3 onclick="toggleText(4)">هل هناك أي فنادق قريبة من مطار خليج نيوم ؟</h3>
+
+        <!-- فيديو السؤال -->
+        <video id="questionVideo4" width="320" height="240" autoplay muted loop controls onclick="switchVideo(1)">
+            <source src="IMG_1139.MP4" type="video/mp4">
+            المتصفح الخاص بك لا يدعم تشغيل الفيديو.
+			
+        </video>
+		<video id="AnswerVideo4" width="320" height="240" autoplay muted loop controls onclick="switchVideo(1)">
+            <source src="IMG_1138.MP4" type="video/mp4">
+        </video></div>
+		
+        <!-- الإجابة النصية (مخفية في البداية) -->
+        <div id="answer4" style="display:none;">
+            <p>
+.نعم، من بينها: هامبتون باي هيلتون، شاطئ ومنتجع لازور، منتجع فيستا شرما -</p>
+			
+        </div>
+    
+	
+	    <div class="question">
+        <!-- السؤال -->
+        <h3 onclick="toggleText(5)">هل يوجد مستشفى قريب من مطار خليج نيوم ؟</h3>
+
+        <!-- فيديو السؤال -->
+        <video id="questionVideo5" width="320" height="240" autoplay muted loop controls onclick="switchVideo(1)">
+            <source src="IMG_1141.MP4" type="video/mp4">
+            المتصفح الخاص بك لا يدعم تشغيل الفيديو.
+			
+        </video>
+		<video id="AnswerVideo5" width="320" height="240" autoplay muted loop controls onclick="switchVideo(1)">
+            <source src="IMG_1140.MP4" type="video/mp4">
+        </video></div>
+		
+        <!-- الإجابة النصية (مخفية في البداية) -->
+        <div id="answer5" style="display:none;">
+            <p>.مستشفى نيوم على بعد ١٠ دقائق، إضافة لمرافق طبية داخل المطار -</p>
+			
+        </div>
+    </div>
+	
+	
+</section>
+
+<script>
+ 
+
+    // دالة لإظهار الإجابة النصية عند الضغط على السؤال
+    function toggleText(id) {
+        var answer = document.getElementById('answer' + id);
+        if (answer.style.display === 'none') {
+            answer.style.display = 'block';  // إظهار الإجابة النصية
+        } else {
+            answer.style.display = 'none';  // إخفاء الإجابة النصية
+        }
+    }
+</script>
+
+
+    <script>
+        function toggleAnswer(id) {
+            var answer = document.getElementById('answer' + id);
+            if (answer.style.display === 'none') {
+                answer.style.display = 'block';
+            } else {
+                answer.style.display = 'none';
+            }
+        }
+    </script>
+ <footer>
+		 <section id="services">
+        <h2>شركاء النجاح</h2>
+        <p>شركة تجمع المطارات الثاني - الراعي الرسمي </p>
+		<p>يوسف بني خليف - مترجم لغة الإشارة </p>
+		<p>راكان - مبرمج </p>
+    </section>
+	
+		<section id="we">
+        <h2>من نحن</h2>
+        <p>معلومات عن الموقع أو الشركة</p>
+        <p>©️ 2024 جميع الحقوق محفوظة</p>
+     </section>
+   
+    </footer>
+    <img s  >
+	
+   
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الخريطة</title>
+    <link rel="stylesheet" href="Haya.css">
+</head>
+<body>
+    <header>
+        <h1>الى اين؟</h1>
+    </header>
+
+    <section id="map">
+       
+        <img id="mainImage" src="الخريطة.png" style="width: 100%; max-width: 300px;">
+        
+        <div>
+            <button onclick="changeImage('المصلى')">المصلى</button>
+            <button onclick="changeImage('البوابات')">البوابات</button>
+           <button onclick="changeImage('نفس اسم الصورة')">هذا بيكون اسم الزر</button>
+        </div>
+    </section>
+
+    <script>
+        function changeImage(location) {
+            var image = document.getElementById('mainImage');
+            if (location === 'المصلى') 
+                image.src = 'المصلى';
+            } else if (location === 'البوابات') {
+                image.src = 'البوابات.png';
+            } else if (location === 'تكملون على نفس الشي') {
+                image.src = 'هنا اسم الصورة.png';
+            }
+        }
+    </script>
+	
+	body>
+    <header>
+        <h1>الى اين؟</h1>
+    </header>
+
+    <section id="map">
+       
+        <img id="mainImage" src="الخريطة.png" style="width: 100%; max-width: 300px;">
+        
+        <div>
+            <button onclick="changeImage('المصلى')">المصلى</button>
+            <button onclick="changeImage('البوابات')">البوابات</button>
+           <button onclick="changeImage('نفس اسم الصورة')">هذا بيكون اسم الزر</button>
+        </div>
+    </section>
+
+    <script>
+        function changeImage(location) {
+            var image = document.getElementById('mainImage');
+            if (location === 'المصلى') 
+                image.src = 'المصلى';
+            } else if (location === 'البوابات') {
+                image.src = 'البوابات.png';
+            } else if (location === 'تكملون على نفس الشي') {
+                image.src = 'هنا اسم الصورة.png';
+            }
+        }
+    </script>
+
+
+     <footer>
+		<section id="we">
+        <h2>من نحن</h2>
+        <p>معلومات عن الموقع أو الشركة.</p>
+        <p>©️ 2024 جميع الحقوق محفوظة.</p>
+     </section>
+    <section id="services">
+        <h2>شركاء النجاح</h2>
+        <p>الاسماء والحسابات.</p>
+    </section>
+    </footer>
+</body>
+</html>
